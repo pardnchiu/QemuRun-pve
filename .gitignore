@@ -1,4 +1,9 @@
 .DS_Store
+.env
+.config
+.doc
+*.out
+
 .pubkey-admin
 .go_qemu_disabled
 .go_qemu_cpu_type
@@ -6,3 +11,4 @@
 .env
 sh/pdvm.sh
 memo.md
+wiki-worker/

@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pardnchiu/go-pve-qemu/internal/model"
-	"github.com/pardnchiu/go-pve-qemu/internal/util"
+	"github.com/pardnchiu/QemuRun-pve/internal/model"
+	"github.com/pardnchiu/QemuRun-pve/internal/util"
 )
 
 func (h *Handler) Install(c *gin.Context) {

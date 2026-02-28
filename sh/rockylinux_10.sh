@@ -62,6 +62,7 @@ sudo timedatectl set-timezone Asia/Taipei
 
 # 設定系統參數
 echo "setting sysctl"
+echo "net.core.somaxconn = 65535" | sudo tee -a /etc/sysctl.conf > /dev/null
 echo "net.ipv4.icmp_echo_ignore_all = 1" | sudo tee -a /etc/sysctl.conf > /dev/null
 echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf > /dev/null
 sudo sysctl -p || true
@@ -89,7 +90,7 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
 # 下載並設定系統資訊腳本
 echo "setting up script sysinfo"
-curl -f -o /usr/local/bin/sysinfo https://gist.githubusercontent.com/pardnchiu/561ef0581911eac7aed33c898a1a2b21/raw/f0e2524de2328448a781863f7800d6f8bdfbd2f4/sysinfo
+sudo curl -f -o /usr/local/bin/sysinfo https://gist.githubusercontent.com/pardnchiu/561ef0581911eac7aed33c898a1a2b21/raw/f0e2524de2328448a781863f7800d6f8bdfbd2f4/sysinfo
 sudo chmod +x /usr/local/bin/sysinfo
 sudo cp -f /usr/local/bin/sysinfo /etc/profile.d/ssh-motd.sh
 sudo chmod +x /etc/profile.d/ssh-motd.sh

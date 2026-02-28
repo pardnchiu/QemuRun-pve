@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/pardnchiu/go-pve-qemu/internal/config"
-	"github.com/pardnchiu/go-pve-qemu/internal/handler"
-	"github.com/pardnchiu/go-pve-qemu/internal/service"
+	"github.com/pardnchiu/QemuRun-pve/internal/config"
+	"github.com/pardnchiu/QemuRun-pve/internal/handler"
+	"github.com/pardnchiu/QemuRun-pve/internal/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"

@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pardnchiu/go-pve-qemu/internal/model"
+	"github.com/pardnchiu/QemuRun-pve/internal/model"
 )
 
 func (s *Service) assignIP() (string, int, error) {

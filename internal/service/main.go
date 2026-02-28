@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/pardnchiu/go-pve-qemu/internal/model"
+	"github.com/pardnchiu/QemuRun-pve/internal/model"
 
 	"github.com/gin-gonic/gin"
 )

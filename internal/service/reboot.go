@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/pardnchiu/go-pve-qemu/internal/util"
+	"github.com/pardnchiu/QemuRun-pve/internal/util"
 )
 
 func (s *Service) Reboot(c *gin.Context, vmid int) error {
