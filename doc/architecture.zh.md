@@ -1,4 +1,5 @@
 # QemuRun-pve - 架構
+最後更新：2026-10-06
 
 > 返回 [README](./README.zh.md)
 

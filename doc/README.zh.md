@@ -1,3 +1,5 @@
+最後更新：2026-10-06
+
 > [!NOTE]
 > 此 README 由 [SKILL](https://github.com/agenvoy/skill-readme-generate) 生成，英文版請參閱 [這裡](../README.md)。
 
@@ -57,7 +59,7 @@ graph LR
 Just [open an issue](https://github.com/pardnchiu/QemuRun-pve/issues/new) to share an idea.
 
 <a href="https://github.com/pardnchiu/QemuRun-pve/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pardnchiu/QemuRun-pve&cache_bust=2026-10-04" alt="QemuRun-pve contributors" />
+  <img src="https://contrib.rocks/image?repo=pardnchiu/QemuRun-pve&cache_bust=2026-10-06" alt="QemuRun-pve contributors" />
 </a>
 
 ***
